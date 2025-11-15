@@ -1,0 +1,109 @@
+.services-section {
+  min-height: 100vh;
+  padding: 6rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+}
+
+.tittle {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background: #ffffff;
+  padding: 1rem 0;
+  z-index: 999;
+}
+
+.services-section h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.services-section p {
+  font-size: 1.25rem;
+  max-width: 800px;
+  text-align: center;
+  line-height: 1.8;
+  color: #333;
+}
+
+.card {
+  width: 300px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  background: white;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-top {
+  background: linear-gradient(135deg, #1B9AAA -3rem, #F4EBE8 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+
+.card-top .emoji {
+  font-size: 3rem;
+}
+
+.card-bottom {
+  padding: 1.2rem;
+}
+
+.card-bottom h2 {
+  font-size: 1.3rem;
+  margin: 0 0 0.5rem;
+}
+
+.card-bottom p {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  background: #e5e5ea;
+  color: #333;
+  border-radius: 999px;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.tag:hover {
+  background: #d1d1d6;
+}
+
+@media (max-width: 768px) {
+  .services-section {
+    padding: 5rem 1.5rem 2rem;
+  }
+
+  .services-section h2 {
+    font-size: 2rem;
+  }
+
+  .services-section p {
+    font-size: 1rem;
+  }
+}
+

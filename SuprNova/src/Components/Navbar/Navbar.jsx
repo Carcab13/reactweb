@@ -44,8 +44,8 @@ const Navbar = () => {
             </AnchorLink>
           </li>
           <li className="navbar-item">
-            <AnchorLink href="#services" offset="80" className="navbar-link">
-              Services
+            <AnchorLink href="#projects" offset="80" className="navbar-link">
+              Projects
             </AnchorLink>
           </li>
           <li className="navbar-item">
@@ -90,12 +90,12 @@ const Navbar = () => {
           </li>
           <li className="navbar-item-mobile">
             <AnchorLink
-              href="#services"
+              href="#projects"
               offset="80"
               className="navbar-link-mobile"
               onClick={closeMobileMenu}
             >
-              Services
+              Projects
             </AnchorLink>
           </li>
           <li className="navbar-item-mobile">
